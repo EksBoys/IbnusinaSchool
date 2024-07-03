@@ -1,0 +1,105 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Image styles */
+img.avatar {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+img.icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-default {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.button-bacaman {
+    background-color: #28A745;
+    color: #fff;
+}
+
+.button-telegram {
+    background-color: #0088cc;
+    color: #fff;
+}
+
+.button-faceb {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.button-yt {
+    background-color: #FF0000;
+    color: #fff;
+}
+
+/* Button hover effects */
+.button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
